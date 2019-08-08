@@ -2,14 +2,14 @@ import React from 'react';
 import logo from '../assets/logo.svg';
 import { Link } from 'react-router-dom'
 
-function Home() {
+function About() {
   return (
-    <div className="Home">
-      <h1>HOME</h1>
+    <div className="About">
+      <h1>ABOUT</h1>
       <img src={logo} className="App-logo" alt="logo" />
-      <Link to="/about">To about</Link>
+      <Link to="/">To home</Link>
     </div>
   );
 }
 
-export default Home;
+export default About;
