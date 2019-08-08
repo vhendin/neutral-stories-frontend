@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from '../logo.svg';
 import './App.css';
+import { Route } from 'react-router-dom';
+import Home from './Home';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Route path="/" component={Home} />
       </header>
     </div>
   );
